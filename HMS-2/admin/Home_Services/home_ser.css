@@ -5,42 +5,43 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.sidebar {
+.sidebar{
+  color: #EEEEEE !important;
   position: fixed;
   height: 100%;
   width: 240px;
-  background: #dbae5f;
+  background: #201E43;
   transition: all 0.5s ease;
 }
-.sidebar.active {
+.sidebar.active{
   width: 60px;
 }
-.sidebar .logo-details {
+.sidebar .logo-details{
   height: 80px;
   display: flex;
   align-items: center;
 }
-.sidebar .logo-details i {
+.sidebar .logo-details i{
   font-size: 28px;
   font-weight: 500;
   color: rgb(3, 1, 1);
   min-width: 60px;
-  text-align: center;
+  text-align: center
 }
-.sidebar .logo-details .logo_name {
-  color: rgb(3, 1, 1);
+.sidebar .logo-details .logo_name{
+  color: #EEEEEE;
   font-size: 24px;
   font-weight: 500;
 }
-.sidebar .nav-links {
+.sidebar .nav-links{
   margin-top: 10px;
 }
-.sidebar .nav-links li {
+.sidebar .nav-links li{
   position: relative;
   list-style: none;
   height: 50px;
 }
-.sidebar .nav-links li a {
+.sidebar .nav-links li a{
   height: 100%;
   width: 100%;
   display: flex;
@@ -48,30 +49,30 @@
   text-decoration: none;
   transition: all 0.4s ease;
 }
-.sidebar .nav-links li a.active {
-  background: #996406;
+.sidebar .nav-links li a.active{
+  background: #508C9B;
 }
-.sidebar .nav-links li a:hover {
-  background: #996406;
+.sidebar .nav-links li a:hover{
+  background: #508C9B;
 }
-.sidebar .nav-links li i {
+.sidebar .nav-links li i{
   min-width: 60px;
   text-align: center;
   font-size: 18px;
-  color: rgb(3, 1, 1);
+  color: #EEEEEE;
 }
-.sidebar .nav-links li a .links_name {
-  color: rgb(3, 1, 1);
+.sidebar .nav-links li a .links_name{
+  color: #EEEEEE;
   font-size: 15px;
   font-weight: 400;
   white-space: nowrap;
 }
-.sidebar .nav-links .log_out {
+.sidebar .nav-links .log_out{
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-.home-section {
+.home-section{
   position: relative;
   background: #f5f5f5;
   min-height: 100vh;
@@ -79,7 +80,7 @@
   left: 240px;
   transition: all 0.5s ease;
 }
-.sidebar.active ~ .home-section {
+.sidebar.active ~ .home-section{
   width: calc(100% - 60px);
   left: 60px;
 }

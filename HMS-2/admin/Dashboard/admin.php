@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="sidebar">
+    <!-- <div class="sidebar">
         <div class="logo-details">
             <i><img src="1.png"
                  alt="logo" width="100px" height="100px"></i>
@@ -91,7 +91,10 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
+    <?php 
+        include '../sidebar.php'; 
+    ?>
     <section class="home-section">
         <nav>
             <div class="sidebar-button">

@@ -1,5 +1,5 @@
 <?php 
-include("../../../Includes/config.php"); 
+include("../../Includes/config.php"); 
 session_start();
 if(isset($_GET['id'])){
 $staff = $con->query("SELECT * FROM staff where id =".$_GET['id']);

@@ -1,8 +1,8 @@
 <?php
-require_once("../../../Includes/config.php"); 
-require_once("../../../Includes/session.php"); 
+require_once("../../Includes/config.php"); 
+require_once("../../Includes/session.php"); 
 if ($logged==false) {
-	 header("Location:../../../../login.php");
+	 header("Location:../../../login.php");
 }
 ini_set('display_errors', 1);
 Class Action {
@@ -10,7 +10,7 @@ Class Action {
 
 	public function __construct() {
 		ob_start();
-   	include ("../../../Includes/config.php"); 
+   	include ("../../Includes/config.php"); 
     
     $this->db = $con;
 	}

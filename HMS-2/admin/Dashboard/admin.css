@@ -7,10 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 .sidebar{
+  color: #EEEEEE !important;
   position: fixed;
   height: 100%;
   width: 240px;
-  background: #dbae5f;
+  background: #201E43;
   transition: all 0.5s ease;
 }
 .sidebar.active{
@@ -29,7 +30,7 @@
   text-align: center
 }
 .sidebar .logo-details .logo_name{
-  color: rgb(3, 1, 1);
+  color: #EEEEEE;
   font-size: 24px;
   font-weight: 500;
 }
@@ -50,19 +51,19 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li a.active{
-  background: #996406;
+  background: #508C9B;
 }
 .sidebar .nav-links li a:hover{
-  background: #996406;
+  background: #508C9B;
 }
 .sidebar .nav-links li i{
   min-width: 60px;
   text-align: center;
   font-size: 18px;
-  color: rgb(3, 1, 1);
+  color: #EEEEEE;
 }
 .sidebar .nav-links li a .links_name{
-  color: rgb(3, 1, 1);
+  color: #EEEEEE;
   font-size: 15px;
   font-weight: 400;
   white-space: nowrap;
@@ -88,7 +89,7 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-  background: #fff;
+  background: #EEEEEE;
   display: flex;
   align-items: center;
   position: fixed;
